@@ -1,65 +1,21 @@
-# 
-# poetry
-#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
-#   This is especially recommended for binary packages to ensure reproducibility, and is more
-#   commonly ignored for libraries.
-#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
-#poetry.lock
+open in termux = - > 
 
-# pdm
-#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
-#pdm.lock
-#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
-#   in version control.
-#   https://pdm.fming.dev/#use-with-ide
-.pdm.toml
+# pkg install python3 -y
+# git clone https://github.com/palahsu/DDoS-Ripper.git
+# cd DDoS-Ripper
+# python3 DRipper.py
 
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
-__pypackages__/
+{Installation on Kali Linux}= - > 
 
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
+# git clone https://github.com/palahsu/DDoS-Ripper.git
+# cd DDoS-Ripper
+# python3 DRipper.py
+# python3 DRipper.py -s [ip] -t 135
 
-# SageMath parsed files
-*.sage.py
+by Rreexut
 
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+Запускаем DDoS атаку в терминале🍸
 
-# Spyder project settings
-.spyderproject
-.spyproject
+RU : DDoS-Ripper – инструмент, с помощью которого можно запустить DDoS-атаку на любой сервер. Также скрипт имеет гибкие настройки
 
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre type checker
-.pyre/
-
-# pytype static type analyzer
-.pytype/
-
-# Cython debug symbols
-cython_debug/
-
-# PyCharm
-#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
-#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
-#  and can be added to the global gitignore or merged into this file.  For a more nuclear
-#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#.idea/
+EN : DDoS-Ripper is a tool with which you can launch a DDoS attack on any server. The script also has flexible settings
